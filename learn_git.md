@@ -116,7 +116,23 @@ ssh-keygen -t rsa -C "youremail.com"
 
 git remote add origin git@github.com:NOELliu1/demo.git
 
-继续执行git push -u origin master把内容推送到远程库，-u把本地master分支和远程的master分支关联起来
+继续执行git push -u origin master把内容推送到远程库，
+
+-u把本地master分支和远程的master分支关联起来
+
+
+
+从现在开始，只要本地做了提交，就可以通过
+
+git push origin master
+
+把本地master分支的最新修改推送到github
+
+
+
+
+
+
 
 
 
